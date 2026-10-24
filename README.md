@@ -8,7 +8,9 @@ Early planning. The repo is being set up from scratch.
 
 ## Plan
 
-- Fork the community device tree ([tmhakim/android_device_motorola_malmo](https://github.com/tmhakim/android_device_motorola_malmo)) and adapt it to the stock dump and kernel tag below.
+- Write our own kernel, device and vendor trees from scratch (no community forks).
+- Kernel first: [malikmiran/android_kernel_motorola_malmo](https://github.com/malikmiran/android_kernel_motorola_malmo).
+- Then the device tree from the stock dump, then the vendor tree.
 - Build the ROM in the cloud using [Action-ROM-Builder](https://github.com/1ndevelopment/Action-ROM-Builder) as the workflow base.
 
 ## Sources
